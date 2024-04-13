@@ -21,4 +21,16 @@ func main() {
     }
   }
 
+  kvs := map[string]string{"malic acid": "apple", "potassium": "banana"}
+  for k, v := range kvs {
+    fmt.Printf("%s -> %s\n", k, v)
+  }
+
+  for _, v := range kvs {
+    pln("value:", v)
+  }
+
+  for i, c := range "go" {
+    pln(i, c)
+  }
 }
