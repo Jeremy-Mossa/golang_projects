@@ -7,4 +7,6 @@ import (
 
 func main() {
 
+  var pln = fmt.Println
+
 }
