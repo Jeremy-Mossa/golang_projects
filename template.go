@@ -5,8 +5,10 @@ import (
   "math"
 )
 
+var pln = fmt.Println
+
 func main() {
 
-  var pln = fmt.Println
+
 
 }
